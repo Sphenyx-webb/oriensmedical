@@ -25,7 +25,7 @@ header.innerHTML = `
       <a href="#" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Products</a>
     </li>
     <li class="nav-link">
-        <a href="#" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Quality</a>
+        <a href="/dist/pages/quality.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Quality</a>
       </li>
   </ul>
 </div>
@@ -69,7 +69,7 @@ footer.innerHTML = `
         <h6 class="text-white text-xl font-semibold mb-6">Contacts</h6>
         <p>+(91) 9999 32 3200</p>
         <p>info@oriensmedical.com</p>
-        <a href="#" class="inline-flex w-max items-center uppercase mt-10 py-3 px-5 text-sm font-medium text-center text-white bg-blue-light rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <a href="/dist/pages/quote-request.html" class="inline-flex w-max items-center uppercase mt-10 py-3 px-5 text-sm font-medium text-center text-white bg-blue-light rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Quote a request
         </a>
     </div>
