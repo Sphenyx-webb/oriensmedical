@@ -1,23 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ['./dist/**/*.{html,js}'],
   theme: {
     container: {
       center: true,
-      padding: '2rem'
+      padding: '5rem'
     },
 
-    colors: {
-      'blue-dark': '#0D2549',
-      'blue-light': '#0477BF',
+    fontFamily: {
+      sans: ['Jost', 'sans-serif'],
     },
 
     extend: {
+      colors: {
+        'blue-dark': '#0D2549',
+        'blue-light': '#0477BF',
+      },
     },
   },
-  plugins: [
-    require('postcss-import'),
-    require('tailwindcss'),
-    require('autoprefixer'),
-  ],
+  plugins: [],
 }
