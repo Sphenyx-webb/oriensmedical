@@ -5,15 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font-awesome CSS -->
-    <link rel="stylesheet" href="/dist/vendor/fontawesome/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css" type="text/css">
     <!-- Tailwind CSS -->
-    <link rel="stylesheet" href="/dist/style.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css">
     <!-- Main CSS-->
-    <link rel="stylesheet" href="/dist/static/css/style.css" type="text/css">
-    <!-- favicon links -->
     <title>Manufacturing Unit | Oriens Medical</title>
 </head>
 <body>
+   <!-- HEADER -->
+   <header class="shadow sticky top-0" id="header"></header>
+
+   <section class="bg-blue-100">
+    <div class="container">
+        <div class="py-8">
+            <h1 class="text-blue-light text-4xl font-semibold mb-2">Manufacturing Unit</h1>
+            <div class="uppercase text-sm text-blue-dark font-semibold">
+                <a href="#">Home</a>
+                <span class="mx-1"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                <a href="#">Manufacturing Unit</a>
+            </div>            
+        </div>
+        <div class="grid grid-cols-2 gap-16 items-center font-medium text-blue-dark text-lg pt-8 pb-10">
+            <div>
+                <h6 class="text-2xl font-bold mb-6">Fully Automated Plant</h6>
+                <p>
+                  Our plant stands at more than 18,000 sq.ft. in area, situated at a distance of ~ 1hr from the International Airport (New Delhi).
+                  Equipped with fully automated and state-of-the-art machinery, manufacturing our portfolio of over 700 products
+                </p>
+                <p class=" mt-5">
+                   With a workforce of over 80 employees, we can fulfill your orders much efficiently.
+                </p>
+                <p class=" mt-5">
+                    Our team of hardworking employees cosider each other their priority and focus on completing and delivering just the right product you need.
+                    Our manufacturing facility is Iso certified, FDA (IND) Approved and CE certified.
+                    Our raw material is also ISO compliant and of high quality.
+                 </p>
+            </div>
+            <div>
+                <div id="about-vid" class="h-60 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section>
+    <div class="container">
+        <div class="grid grid-cols-2 gap-16 py-16">
+            <div>
+                <form action="" class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="mb-6">
+                        <input type="text" id="default-input" class="bg-gray-100 text-gray-900 rounded-lg focus:border-blue-100 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name">
+                    </div>
+                    <div class="mb-6">
+                        <input type="text" id="default-input" class="bg-gray-100 text-gray-900 rounded-lg focus:border-blue-100 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email">
+                    </div>
+                    <div>
+                        <textarea id="message" rows="4" class="block p-2.5 w-full text-gray-900 bg-gray-100 rounded-lg focus:border-blue-100 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="What would you like to know?"></textarea>
+                    </div>
+                    <button type="submit" class="text-white uppercase bg-blue-dark hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg w-full px-5 py-2.5 mt-10 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send message</button>
+                </form>
+            </div>
+            <div class="text-blue-dark font-medium text-lg text-right">
+                <h6 class="text-2xl font-semibold mb-6">Visit our manufacturing unit</h6>
+                <p>
+                  We would like to meet you and give you a tour of our plant.
+                </p>
+                <p>Fill out this form and we will reach out to you.</p>
+                <div class="mt-16 pl-40 pr-10">
+                   <div class="flex justify-between">
+                      <span>
+                        <img src="../static/images/brands/iso-e1650030030529.png" alt="" class="w-14">
+                      </span>
+                      <span>
+                        <img src="../static/images/brands/Make-in-India-Logo-Small-e1650029847391-compress-compress.png" alt="" class="w-20">
+                      </span>
+                   </div>
+                   <div class="flex justify-between mt-8">
+                      <span>
+                        <img src="../static/images/brands/CE-e1650030102881.png" alt="" class="w-14">
+                      </span>
+                      <span>
+                        <img src="../static/images/brands/fda-e1650030327408-compress-compress.jpg" alt="" class="w-14">
+                      </span>
+                   </div>
+                   <div class="flex justify-center mt-8">
+                      <span>
+                        <img src="../static/images/brands/fsc-e1650030383624-compress-compress.jpeg" alt="" class="w-14">
+                      </span>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
     
+    <!-- FOOTER -->
+    <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
+
+    <script src="../static/js/script.js"></script>
 </body>
 </html>

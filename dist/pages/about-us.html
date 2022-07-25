@@ -5,15 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font-awesome CSS -->
-    <link rel="stylesheet" href="/dist/vendor/fontawesome/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css" type="text/css">
     <!-- Tailwind CSS -->
-    <link rel="stylesheet" href="/dist/style.css" type="text/css">
-    <!-- Main CSS-->
-    <link rel="stylesheet" href="/dist/static/css/style.css" type="text/css">
-    <!-- favicon links -->
-    <title>About Us| Oriens Medical</title>
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+    <title>About Us | Oriens Medical</title>
 </head>
 <body>
-    
+   <!-- HEADER -->
+   <header class="shadow sticky top-0" id="header"></header>
+
+   <!-- ABOUT SECTION -->
+   <section>
+    <div class="bg-blue-100">
+        <div class="container">
+            <div class="pt-8 pb-10">
+                <h1 class="text-blue-light text-4xl font-semibold mb-2">About Us</h1>
+                <div class="uppercase text-sm text-blue-dark font-semibold">
+                    <a href="#">Home</a>
+                    <span class="mx-1"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    <a href="#">About Us</a>
+                </div>            
+            </div>
+            <div class="grid grid-cols-2 gap-16 text-blue-dark text-lg font-medium py-8">
+                <div>
+                    <h6 class="text-2xl font-semibold mb-6">Our philosophy and mission</h6>
+                    <p>
+                      Our aim is to become a structurally stable and growth oriented organization, with sustainability at it's core.
+                      Our excellence in what we do should be directed towards healing and the betterment of the society.
+                    </p>
+                    <p class="text-black font-bold mt-5">
+                       We strive to provide our customers with best quality products while bringing reliable health solution for the users.
+                    </p>
+                    <a href="#" class="inline-flex w-max items-center uppercase mt-10 py-3 px-5 text-sm font-medium text-center text-white bg-blue-light rounded-xl hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Visit our manufacturing unit
+                    </a>
+                </div>
+                <div>
+                    <div id="about-vid" class="h-60 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- HISTORY SECTION -->
+   <section>
+    <div class="container">
+        <div class="grid grid-cols-2 gap-8 py-16">
+            <div>
+                <div class="h-full w-full bg-blue-light rounded-lg flex justify-center items-center text-6xl text-white"></div>
+            </div>
+            <div class="text-blue-dark font-medium text-lg text-right">
+                <h6 class="text-2xl font-semibold mb-6">History</h6>
+                <p>
+                  We started our operations in 1990s, under the skilled leadership of Mr. Sanjay Kumar in Delhi, India, as Capital Orthopaedic.
+                  We were one of the first manufaturers for Orthopedic implants and medical devices in India.
+                </p>
+                <p class="mt-5">
+                  Since then, we have grown in numbers and have made an everlasting mark in the industry.
+                  We redefined our operations under the brand name of Oriens Medical.  
+                </p>
+                <p class="text-black font-bold mt-5">
+                   We deal in more than 24 countries and have capabilities to provide customized products for our clients' needs.
+                </p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
+
+    <script src="../static/js/script.js"></script>
 </body>
 </html>

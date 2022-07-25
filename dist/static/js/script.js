@@ -13,13 +13,13 @@ header.innerHTML = `
 <div class="hidden uppercase font-bold text-blue-dark justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-cta">
   <ul class="flex flex-col mt-4 md:flex-row  md:mt-0 md:text-sm md:font-medium">
     <li class="nav-link active">
-      <a href="#" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Home</a>
+      <a href="/dist/pages/index.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Home</a>
     </li>
     <li class="nav-link">
-      <a href="#" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">About Us</a>
+      <a href="/dist/pages/about-us.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">About Us</a>
     </li>
     <li class="nav-link">
-      <a href="#" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Manufacturing unit</a>
+      <a href="/dist/pages/manufacturing-unit.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Manufacturing unit</a>
     </li>
     <li class="nav-link">
       <a href="#" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Products</a>
