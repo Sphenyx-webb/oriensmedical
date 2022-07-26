@@ -22,7 +22,7 @@ header.innerHTML = `
       <a href="/dist/pages/manufacturing-unit.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Manufacturing unit</a>
     </li>
     <li class="nav-link">
-      <a href="#" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Products</a>
+      <a href="/dist/pages/products.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Products</a>
     </li>
     <li class="nav-link">
         <a href="/dist/pages/quality.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Quality</a>
