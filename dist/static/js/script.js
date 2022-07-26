@@ -96,3 +96,6 @@ footer.innerHTML = `
 </div>
 </div>`
 
+window.addEventListener("load", () => {
+    document.querySelector("#preloader").classList += " hidden";
+});

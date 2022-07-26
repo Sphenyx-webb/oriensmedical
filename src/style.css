@@ -26,7 +26,7 @@
 .popular-products-card{
     @apply p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700
 }
-.testimonial-card{
+.recommendation-card{
     @apply shrink-0 px-6 pb-6 h-fit max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700
 }
 */
