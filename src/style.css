@@ -4,6 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .active{
     @apply text-blue-light
 }
+/*
+.btn{
+    @apply text-white uppercase font-medium rounded-lg mt-10 text-center focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+}
+.btn-primary{
+    @apply bg-blue-light hover:bg-blue-700
+}
+.btn-primary-200{
+    @apply bg-blue-dark hover:bg-blue-900
+}
+.form-control{
+    @apply bg-gray-100 text-gray-900 rounded-lg focus:border-blue-100 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+}
+
+###################
+.popular-products-card{
+    @apply p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700
+}
+.testimonial-card{
+    @apply shrink-0 px-6 pb-6 h-fit max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700
+}
+*/

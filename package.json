@@ -20,8 +20,5 @@
   "homepage": "https://github.com/Sphenyx-webb/oriensmedical#readme",
   "devDependencies": {
     "tailwindcss": "^3.1.6"
-  },
-  "dependencies": {
-    "postcss-import": "^14.1.0"
   }
 }
