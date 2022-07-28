@@ -16,6 +16,12 @@ module.exports = {
         'blue-dark': '#0D2549',
         'blue-light': '#0477BF',
       },
+      zIndex: {
+        'infinite': '99999',
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
     },
   },
   plugins: [],
