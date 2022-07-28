@@ -1,0 +1,24 @@
+.hide-list{
+    display: none;
+}
+ul.category-list-group{
+    list-style: none;
+}
+ul.category-list-group li.category-list-item{
+    padding: .7rem;
+    cursor: pointer;
+    position: relative;
+}
+ul.category-list-group li.category-list-item span.category-list-icon{
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+ul.category-list-group li.category-list-item ul.category-sub-list-group{
+   list-style: none;
+   padding-top: .5rem;
+}
+ul.category-list-group li.category-list-item ul.category-sub-list-group li.category-sub-list-item{
+    width: max-content;
+    padding: .5rem 0.5rem;
+}

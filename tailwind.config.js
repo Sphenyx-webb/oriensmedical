@@ -22,6 +22,9 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 3s linear infinite',
       },
+      boxShadow: {
+        'custom': '0 0 10px 0 rgba(26, 26, 26, 0.15)',
+      }
     },
   },
   plugins: [],
