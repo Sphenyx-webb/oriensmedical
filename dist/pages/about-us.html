@@ -32,9 +32,9 @@
                     <span>About Us</span>
                 </div>            
             </div>
-            <div class="grid grid-cols-2 gap-16 text-blue-dark text-lg font-medium py-8">
-                <div>
-                    <h6 class="text-2xl font-semibold mb-6">Our philosophy and mission</h6>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 text-blue-dark text-lg font-medium py-8">
+                <div class="order-1">
+                    <h6 class="text-4xl font-semibold mb-6">Our philosophy and mission</h6>
                     <p>
                       Our aim is to become a structurally stable and growth oriented organization, with sustainability at it's core.
                       Our excellence in what we do should be directed towards healing and the betterment of the society.
@@ -46,7 +46,7 @@
                         Visit our manufacturing unit
                     </a>
                 </div>
-                <div>
+                <div class="lg:order-2">
                     <div id="about-vid" class="h-60 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white">
                         <i class="fa-solid fa-play"></i>
                     </div>
@@ -59,12 +59,12 @@
    <!-- HISTORY SECTION -->
    <section>
     <div class="container">
-        <div class="grid grid-cols-2 gap-8 py-16">
-            <div>
-                <div class="h-full w-full bg-blue-light rounded-lg flex justify-center items-center text-6xl text-white"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 py-16 items-center">
+            <div class="hidden lg:block">
+                <img src="../static/images/gallery/About us Page Photo.jpg" alt="" class="h-full w-full">
             </div>
-            <div class="text-blue-dark font-medium text-lg text-right">
-                <h6 class="text-2xl font-semibold mb-6">History</h6>
+            <div class="text-blue-dark font-medium text-lg text-left">
+                <h6 class="text-4xl font-semibold mb-6">History</h6>
                 <p>
                   We started our operations in 1990s, under the skilled leadership of Mr. Sanjay Kumar in Delhi, India, as Capital Orthopaedic.
                   We were one of the first manufaturers for Orthopedic implants and medical devices in India.
@@ -86,5 +86,6 @@
     <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
 
     <script src="../static/js/script.js"></script>
+    <script src="../static/js/preloader.js"></script> 
 </body>
 </html>

@@ -4,7 +4,13 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '5rem'
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
     },
 
     fontFamily: {
@@ -24,6 +30,9 @@ module.exports = {
       },
       boxShadow: {
         'custom': '0 0 10px 0 rgba(26, 26, 26, 0.15)',
+      },
+      backgroundImage: {
+        'hero-img': "url('/dist/static/images/gallery/Hero Photo.jpg')",
       }
     },
   },

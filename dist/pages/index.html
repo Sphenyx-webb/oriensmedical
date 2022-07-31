@@ -24,13 +24,14 @@
     </div>
     
     <!-- HEADER -->
-   <header class="shadow sticky top-0 z-50" id="header"></header>
+   <header class="shadow sticky top-0 z-50 bg-white w-full" id="header"></header>
 
    <main>
     <!-- HERO SECTION -->
-    <section id="hero-section" class="hero-section bg-blue-light h-96">
-        <div class="container h-full flex items-center text-white">
-            <div class="w-1/2 pr-32">
+    <section id="hero-section" class="hero-section bg-hero-img bg-no-repeat bg-cover bg-center">
+       <div class="h-full w-full backdrop-opacity-10 backdrop-invert bg-black/30 py-28">
+                <div class="container h-full flex items-center text-white">
+            <div class="w-full md:w-3/5 lg:w-1/2 lg:pr-32">
                 <span class="">
                     <h1 class="text-5xl font-medium leading-tight">Providing Solutions For Your Wellness</h1>
                 </span>
@@ -39,18 +40,19 @@
                 </span>
             </div>
         </div>
+       </div>
     </section>
     
     <!-- INTRO SECTION -->
-    <section id="intro-section" class="intro-section my-20">
-        <div class="container grid grid-cols-2 px-36 items-center">
+    <section id="intro-section" class="intro-section mt-10 mb-16 md:mt-10 md:mb-16 md:my-20">
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:px-36 items-center">
             <div class="intro-vid-cont">
                 <div class="intro-vid h-60 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white">
                     <i class="fa-solid fa-play"></i>
                     <!-- <video src="../media/videos/"></video> -->
                 </div>
             </div>
-            <div class="text-blue-dark text-right pl-14">
+            <div class="text-blue-dark text-center mt-6 md:mt-0 md:text-right md:pl-14">
                 <h1 class="text-6xl font-semibold mb-4">Welcome!</h1>
                 <p class="text-lg">We are a leading manufacturer and exporter of Orthopedic implants and instruments with products spanning in more than 24 countries.</p>
             </div>
@@ -64,7 +66,7 @@
                 <h5 class="text-center text-4xl text-blue-dark font-semibold">Popular Products</h5>
             </div>
 
-            <div class="products grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div class="products grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 <div class="p-6 max-w-sm bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
                     <span class="w-full flex justify-center">
                         <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
@@ -311,7 +313,7 @@
 
     <!-- SUPPORTED BRANDS SECTION -->
     <section>
-        <div class="container flex justify-between my-20">
+        <div class="container grid grid-cols-3 gap-8 md:flex justify-between my-20">
             <div>
                 <img src="../media/images/brands/iso-e1650030030529.png" alt="">
             </div>
@@ -335,5 +337,6 @@
    <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
 
    <script src="../static/js/script.js"></script>
+   <script src="../static/js/preloader.js"></script> 
 </body>
 </html>
