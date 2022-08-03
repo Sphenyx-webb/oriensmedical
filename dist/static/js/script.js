@@ -34,7 +34,7 @@ header.innerHTML = `
 </div>
 
 <div class="flex">
-    <button data-collapse-toggle="navbar-cta" type="button" class="block p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-blue-dark focus:outline-none focus:ring-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+    <button data-collapse-toggle="navbar-cta" type="button" class="block p-2 text-sm text-gray-500 rounded-lg lg:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
       <span class="text-3xl md:text-4xl text-blue-light"><i class="fa-solid fa-bars"></i></span>
     </button>
@@ -77,7 +77,7 @@ footer.innerHTML = `
         Quote a request
     </a>
    </div>
-    </div>
+  </div>
 </div>
 
 <div class="flex flex-col sm:flex-row justify-between pt-6 text-gray-400">

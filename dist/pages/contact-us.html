@@ -14,10 +14,95 @@
    <!-- HEADER -->
    <header class="shadow sticky top-0 z-50" id="header"></header>
 
+   <section class="bg-blue-100">
+    <div class="container">
+        <div class="py-8">
+            <h1 class="text-blue-light text-4xl font-semibold mb-2">Contact Us</h1>
+            <div class="uppercase text-sm text-blue-dark font-semibold">
+                <a href="#" class="text-blue-light">Home</a>
+                <span class="mx-1"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                <span>Contact Us</span>
+            </div>            
+        </div>
+   </section>
+
+   <section class="my-16">
+    <div class="container flex flex-col lg:flex-row justify-between gap-16">
+        <div class="flex flex-col gap-8">
+            <div class="flex items-center gap-8 shadow-custom w-full lg:w-96 rounded-lg p-6">
+                <div class="bg-blue-200 text-blue-light rounded-full h-6 w-6 flex items-center justify-center p-5">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                    <h6 class="font-semibold">Phone Number</h6>
+                    <p>+91 9999 3232 00</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-8 shadow-custom w-full lg:w-96 rounded-lg p-6">
+                <div class="bg-blue-200 text-blue-light rounded-full h-6 w-6 flex items-center justify-center p-5">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <h6 class="font-semibold">Email</h6>
+                    <p>info@oriensmedical.com</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-8 shadow-custom w-full lg:w-96 rounded-lg p-6">
+                <div class="bg-blue-200 text-blue-light rounded-full h-6 w-6 flex items-center justify-center p-5">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                    <h6 class="font-semibold">Address</h6>
+                    <p>A-87, Sector A4 Trans Delhi SIgnature city, UP 201103, IN</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <form action="" class="px-6 py-10 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+                <div>
+                    <h5 class="font-semibold text-4xl text-center">Get in touch</h5>
+                </div>
+                <div class="grid gap-8 mt-8 mb-8 md:grid-cols-2">
+                    <div>
+                        <input type="text" id="first_name" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="First Name" required>
+                    </div>
+                    <div>
+                        <input type="text" id="last_name" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Last Name" required>
+                    </div>
+                    <div>
+                        <input type="text" id="company" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email" required>
+                    </div>  
+                    <div>
+                        <input type="tel" id="phone" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700  dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </div>
+                </div>
+                <div>
+                    <textarea id="message" rows="4" class="block p-2.5 w-full text-gray-900 bg-gray-100 rounded-lg focus:border-blue-100 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="What would you like to know?"></textarea>
+                </div>
+                <div class="flex items-start mt-8">
+                    <div class="flex items-center h-5">
+                    <input id="remember" type="checkbox" value="" class="w-4 h-4 bg-blue-light rounded border border-blue-light dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+                    </div>
+                    <label for="remember" class="ml-2 font-medium text-gray-500 dark:text-gray-400">I agree that my submitted data is being collected and stored.</label>
+                </div>
+                <div class="flex justify-center">
+                    <button type="submit" class="text-white uppercase bg-blue-dark hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg w-4/5 px-5 py-2.5 mt-10 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+   </section>
+
     <!-- FOOTER -->
     <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
 
+    <!-- PRELOADER -->
+    <!-- <div id="preloader" class="fixed w-full h-full inset-0 bg-white opacity-80 text-center z-infinite">
+        <div class="absolute rounded-full top-1/2 left-1/2 w-14 h-14 bg-blue-light animate-pulse"></div>
+    </div> -->
+
     <script src="../static/js/script.js"></script>
-    <script src="../static/js/preloader.js"></script> 
+    <!-- <script src="../static/js/preloader.js"></script>  -->
 </body>
 </html>
