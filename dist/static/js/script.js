@@ -3,43 +3,44 @@ const footer = document.querySelector("#footer");
 const year = new Date().getFullYear();
 
 
-header.innerHTML = `
-<nav class="bg-white border-gray-200 py-2.5 rounded dark:bg-gray-900">
-<div class="container flex flex-wrap justify-between items-center mx-auto">
-<a href="/dist/pages/index.html" class="flex items-center">
-    <img src="/dist/static/images/logo/Oriens-main-logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-</a>
-
-<div class="hidden uppercase font-bold text-blue-dark justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="navbar-cta">
-  <ul class="flex flex-col mt-4 md:flex-row  md:mt-0 md:text-sm md:font-medium">
-    <li class="nav-link active">
-      <a href="/dist/pages/index.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Home</a>
-    </li>
-    <li class="nav-link">
-      <a href="/dist/pages/about-us.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">About Us</a>
-    </li>
-    <li class="nav-link">
-      <a href="/dist/pages/manufacturing-unit.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Manufacturing unit</a>
-    </li>
-    <li class="nav-link">
-      <a href="/dist/pages/products.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Products</a>
-    </li>
-    <li class="nav-link">
-        <a href="/dist/pages/quality.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Quality</a>
-    </li>
-    <li class="nav-link">
-        <a href="/dist/pages/contact-us.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Contact Us</a>
-    </li>
-  </ul>
-</div>
-
-<div class="flex">
-    <button data-collapse-toggle="navbar-cta" type="button" class="block p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-blue-dark focus:outline-none focus:ring-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
-      <span class="sr-only">Open main menu</span>
-      <span class="text-3xl md:text-4xl text-blue-light"><i class="fa-solid fa-bars"></i></span>
-    </button>
-</div>
-</div>
+header.innerHTML = `<nav class="bg-white border-gray-200 py-2.5 rounded dark:bg-gray-900">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="/dist/pages/index.html" class="flex items-center">
+          <img src="/dist/static/images/logo/Oriens-main-logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+      </a>
+      <div id="navbarTogglers" class="flex lg:hidden">
+        <button type="button" id="mobileMenuOpenBtn" class="rounded-lg bg-none text-blue-light hover:text-blue-dark focus:text-blue-dark focus:outline-none focus:bg-none focus:ring-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+          <span class="sr-only">Open main menu</span>
+          <span class="text-2xl md:text-4xl"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <button type="button" id="mobileMenuCloseBtn" class="hidden rounded-lg bg-none text-blue-light hover:text-red-500 focus:text-red-500 focus:outline-none focus:bg-none focus:ring-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+          <span class="sr-only">Open main menu</span>
+          <span class="text-3xl md:text-4xl"><i class="fa-solid fa-times"></i></span>
+        </button>
+      </div>
+      <div id="navbarCollapse" class="hidden uppercase font-bold text-blue-dark justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="navbar-cta">
+        <ul class="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:text-sm lg:font-medium">
+          <li class="nav-link active">
+            <a href="/dist/pages/index.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Home</a>
+          </li>
+          <li class="nav-link">
+            <a href="/dist/pages/about-us.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">About Us</a>
+          </li>
+          <li class="nav-link">
+            <a href="/dist/pages/manufacturing-unit.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Manufacturing unit</a>
+          </li>
+          <li class="nav-link">
+            <a href="/dist/pages/products.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Products</a>
+          </li>
+          <li class="nav-link">
+              <a href="/dist/pages/quality.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Quality</a>
+          </li>
+          <li class="nav-link">
+              <a href="/dist/pages/contact-us.html" class="block py-2 px-3 hover:text-blue-light dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 </nav>`
 
 
