@@ -671,6 +671,10 @@ video {
   top: 6rem;
 }
 
+.left-0{
+  left: 0px;
+}
+
 .z-infinite{
   z-index: 99999;
 }
@@ -850,6 +854,10 @@ video {
   height: 18rem;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -894,6 +902,10 @@ video {
 
 .w-96{
   width: 24rem;
+}
+
+.w-12{
+  width: 3rem;
 }
 
 .max-w-sm{
@@ -1077,6 +1089,10 @@ video {
 
 .bg-hero-img{
   background-image: url('/dist/static/images/gallery/Hero Photo.jpg');
+}
+
+.bg-none{
+  background-image: none;
 }
 
 .bg-cover{
@@ -1480,6 +1496,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-dark:hover{
+  --tw-text-opacity: 1;
+  color: rgb(13 37 73 / var(--tw-text-opacity));
+}
+
+.hover\:text-red-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
 .focus\:border-blue-100:focus{
   --tw-border-opacity: 1;
   border-color: rgb(219 234 254 / var(--tw-border-opacity));
@@ -1490,9 +1516,23 @@ video {
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
+.focus\:bg-none:focus{
+  background-image: none;
+}
+
 .focus\:text-blue-light:focus{
   --tw-text-opacity: 1;
   color: rgb(4 119 191 / var(--tw-text-opacity));
+}
+
+.focus\:text-blue-dark:focus{
+  --tw-text-opacity: 1;
+  color: rgb(13 37 73 / var(--tw-text-opacity));
+}
+
+.focus\:text-red-500:focus{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus{
@@ -1839,6 +1879,15 @@ video {
 
   .lg\:pl-10{
     padding-left: 2.5rem;
+  }
+
+  .lg\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg\:font-medium{
+    font-weight: 500;
   }
 }
 
