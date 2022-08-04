@@ -32,7 +32,7 @@ module.exports = {
         'custom': '0 0 10px 0 rgba(26, 26, 26, 0.15)',
       },
       backgroundImage: {
-        'hero-img': "url('/dist/static/images/gallery/Hero Photo.jpg')",
+        'hero-img': "url('../images/gallery/Hero Photo.jpg')",
       }
     },
   },

@@ -1,14 +1,16 @@
-const categoryList = document.querySelectorAll(".category-list-item");
+const categoryListIcons = document.querySelectorAll(".category-list-icon");
+// const categoryList = document.querySelectorAll(".category-list-item");
 // const subCategoryList = document.querySelectorAll(".category-sub-list-group");
 
-categoryList.forEach(catList => {
-    catList.addEventListener("click", () => {
-        const listItem = catList.querySelector(".category-sub-list-group")
-        listItem.classList.toggle("hide-list");
-        if(!listItem.classList.contains("hide-list")){
-            catList.querySelector(".category-list-icon").innerHTML = `<i class="fas fa-angle-up"></i>`;
+categoryListIcons.forEach(categoryListIcon => {
+    categoryListIcon.addEventListener("click", () => {
+        // const subListItem = categoryListIcon.nextElementSibling;
+        const subListItem = categoryListIcon.parentElement.querySelector(".category-sub-list-group");
+        subListItem.classList.toggle("hide-list");
+        if(!subListItem.classList.contains("hide-list")){
+            categoryListIcon.innerHTML = `<i class="fas fa-angle-up"></i>`;
         } else {
-            catList.querySelector(".category-list-icon").innerHTML = `<i class="fas fa-angle-down"></i>`;
+            categoryListIcon.innerHTML = `<i class="fas fa-angle-down"></i>`;
         }
     });
 });

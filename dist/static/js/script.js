@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
 header.innerHTML = `<nav class="bg-white border-gray-200 py-2.5 rounded dark:bg-gray-900">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a href="./index.html" class="flex items-center">
-          <img src="/dist/static/images/logo/Oriens-main-logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+          <img src="../static/images/logo/Oriens-main-logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
       </a>
       <div id="navbarTogglers" class="flex lg:hidden">
         <button type="button" id="mobileMenuOpenBtn" class="rounded-lg bg-none text-blue-light hover:text-blue-dark focus:text-blue-dark focus:outline-none focus:bg-none focus:ring-none dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
