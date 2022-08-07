@@ -38,13 +38,13 @@
                 <div class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none">
                     <svg aria-hidden="true" class="w-6 h-6 text-blue-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
                 </div>
-                <input type="text" id="simple-search" class="bg-white border-2 text-lg border-blue-200 text-gray-900 rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
+                <input type="text" id="simple-search" class="bg-white border-2 text-lg border-blue-200 text-gray-900 rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Search" required>
             </div>
         </form>
     </div>
-    <div class="flex items-center justify-end gap-2 text-xl font-medium">
-        <label for="dropdown-section" class="text-gray-500 dark:text-gray-400">Sort by:</label>
-        <select className="dropdown-section appearance-none bg-transparent p-2.5">
+    <div class="flex items-center justify-center mt-6 md:mt-0 md:justify-end gap-2 text-xl font-medium">
+        <label class="text-gray-500">Sort by:</label>
+        <select className="appearance-none bg-transparent p-2.5">
             <option value="1" className='bg-slate-700'> Popularity </option>
             <option value="2" className='bg-slate-700'> Average Rating </option>
             <option value="3" className='bg-slate-700'> Latest </option>
@@ -54,11 +54,11 @@
     </div>
   </section>
 
-   <section class="container pt-10 pb-16 grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between  gap-16">
+   <section class="container pt-10 pb-16 grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between gap-16">
     <main>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div class="w-full lg:w-80">
-                <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+                <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                     <span class="w-full h-max flex justify-center">
                         <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                     </span>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="w-full lg:w-80">
-               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                    <span class="w-full h-max flex justify-center">
                        <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                    </span>
@@ -80,7 +80,7 @@
             </div>
 
             <div class="w-full lg:w-80">
-               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                    <span class="w-full h-max flex justify-center">
                        <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                    </span>
@@ -91,7 +91,7 @@
             </div>
 
             <div class="w-full lg:w-80">
-               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                    <span class="w-full h-max flex justify-center">
                        <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                    </span>
@@ -102,7 +102,7 @@
             </div>
 
             <div class="w-full lg:w-80">
-               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+               <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                    <span class="w-full h-max flex justify-center">
                        <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                    </span>
@@ -113,7 +113,7 @@
             </div>
 
             <div class="w-full lg:w-80">
-                <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+                <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                     <span class="w-full h-max flex justify-center">
                         <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                     </span>
@@ -127,28 +127,28 @@
             <div aria-label="Page navigation example">
                 <ul class="inline-flex items-center -space-x-px">
                   <li>
-                    <a href="#" class="py-2 px-3 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                    <a href="#" class="py-2 px-3 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700">
                       <span class="sr-only">Previous</span>
                       <span><i class="fas fa-angle-left"></i></span>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">1</a>
                   </li>
                   <li>
-                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">2</a>
                   </li>
                   <li>
-                    <a href="#" aria-current="page" class="z-10 py-2 px-3 leading-tight text-blue-600 bg-blue-100 border border-blue-300 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
+                    <a href="#" aria-current="page" class="z-10 py-2 px-3 leading-tight text-blue-600 bg-blue-100 border border-blue-300 hover:bg-blue-100 hover:text-blue-700">3</a>
                   </li>
                   <li>
-                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">4</a>
                   </li>
                   <li>
-                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">5</a>
                   </li>
                   <li>
-                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                    <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700">
                       <span class="sr-only">Next</span>
                       <span><i class="fas fa-angle-right"></i></span>
                     </a>
@@ -229,8 +229,13 @@
              <a href="./product-category.html">Others</a>
          </li>
      </ul>
- </aside>
-</section>
+    </aside>
+   </section>
+
+    <!-- SCROLL TO TOP BTN -->
+   <span class="px-5 py-3.5 fixed right-5 bottom-5 rounded-lg text-white text-xl bg-blue-light cursor-pointer hidden" id="back-to-top">
+    <i class="fa-solid fa-angles-up"></i>
+   </span>
     
     <!-- FOOTER -->
     <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
@@ -244,5 +249,6 @@
     <script src="../static/js/script.js"></script>
     <script src="../static/js/menu.js"></script>
     <script src="../static/js/category.js"></script>
+    <script src="../static/js/back-to-top.js"></script>
 </body>
 </html>

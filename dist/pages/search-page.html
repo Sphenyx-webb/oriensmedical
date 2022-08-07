@@ -28,24 +28,34 @@
         </div>
    </section>
 
-   <section class="container mt-10">
-    <div class="px-0 lg:px-10">
+   <section class="container mt-10 grid grid-cols-1 md:grid-cols-2">
+    <div>
         <form class="flex items-center">   
             <label for="simple-search" class="sr-only">Search</label>
             <div class="relative w-full">
                 <div class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none">
                     <svg aria-hidden="true" class="w-6 h-6 text-blue-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
                 </div>
-                <input type="text" id="simple-search" class="bg-white border-2 text-lg border-blue-200 text-gray-900 rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
+                <input type="text" id="simple-search" class="bg-white border-2 text-lg border-blue-200 text-gray-900 rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Search" required>
             </div>
         </form>
+    </div>
+    <div class="flex items-center justify-center mt-6 md:mt-0 md:justify-end gap-2 text-xl font-medium">
+        <label for="dropdown-section" class="text-gray-500 dark:text-gray-400">Sort by:</label>
+        <select className="dropdown-section appearance-none bg-transparent p-2.5">
+            <option value="1" className='bg-slate-700'> Popularity </option>
+            <option value="2" className='bg-slate-700'> Average Rating </option>
+            <option value="3" className='bg-slate-700'> Latest </option>
+            <option value="4" className='bg-slate-700'> Price: low to high </option>
+            <option value="5" className='bg-slate-700'> Price: high to low </option>
+        </select>
     </div>
    </section>
 
    <section class="container pt-10 pb-16 grid grid-cols-1 lg:flex justify-center  gap-16">
     <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         <div class="w-full lg:w-80">
-            <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+            <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                 <span class="w-full h-max flex justify-center">
                     <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                 </span>
@@ -56,7 +66,7 @@
         </div>
 
         <div class="w-full lg:w-80">
-           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                <span class="w-full h-max flex justify-center">
                    <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                </span>
@@ -67,7 +77,7 @@
         </div>
 
         <div class="w-full lg:w-80">
-           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                <span class="w-full h-max flex justify-center">
                    <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                </span>
@@ -78,7 +88,7 @@
         </div>
 
         <div class="w-full lg:w-80">
-           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                <span class="w-full h-max flex justify-center">
                    <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                </span>
@@ -89,7 +99,7 @@
         </div>
 
         <div class="w-full lg:w-80">
-           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+           <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                <span class="w-full h-max flex justify-center">
                    <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                </span>
@@ -100,7 +110,7 @@
         </div>
 
         <div class="w-full lg:w-80">
-            <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+            <div class="p-6 mb-4 w-full bg-white rounded-lg shadow-custom">
                 <span class="w-full h-max flex justify-center">
                     <img src="../media/images/products/External_fixator.png" alt="" class="w-16 my-6">
                 </span>
@@ -112,6 +122,11 @@
     </main>
     </section>
 
+    <!-- SCROLL TO TOP BTN -->
+   <span class="px-5 py-3.5 fixed right-5 bottom-5 rounded-lg text-white text-xl bg-blue-light cursor-pointer hidden" id="back-to-top">
+    <i class="fa-solid fa-angles-up"></i>
+   </span>
+
     <!-- FOOTER -->
     <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
 
@@ -122,5 +137,6 @@
 
     <script src="../static/js/script.js"></script>
     <script src="../static/js/preloader.js"></script> 
+    <script src="../static/js/back-to-top.js"></script>
 </body>
 </html>

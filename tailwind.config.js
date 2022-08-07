@@ -29,10 +29,10 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite',
       },
       boxShadow: {
-        'custom': '0 0 10px 0 rgba(26, 26, 26, 0.15)',
+        'custom': '0 0 10px 0 rgba(26, 26, 26, 0.12)',
       },
       backgroundImage: {
-        'hero-img': "url('../images/gallery/Hero Photo.jpg')",
+        'hero-img': "url('../images/gallery/Hero-Photo-min.webp')",
       }
     },
   },

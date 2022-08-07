@@ -13,7 +13,7 @@
 <body>
     
     <!-- PRELOADER -->
-    <div id="preloader" class="fixed w-full h-full inset-0 bg-white opacity-80 text-center z-infinite">
+    <div id="preloader" class="fixed w-full h-full inset-0 bg-white opacity-80 flex items-center justify-center text-center z-infinite">
         <div class="absolute rounded-full top-1/2 left-1/2 w-14 h-14 bg-blue-light animate-pulse"></div>
     </div>
     
@@ -38,37 +38,42 @@
             Enter the details regarding the type of products you're interested interested in. Please include as much details as possible, so we can provide the best quote.
         </div>
         <div class="flex justify-center pb-16">
-            <form action="" class="px-6 py-12 w-4/5 bg-white rounded-lg shadow-custom dark:bg-gray-800 dark:border-gray-700">
+            <form action="" class="px-6 py-12 w-4/5 bg-white rounded-lg shadow-custom">
                 <div class="grid gap-8 mb-8 md:grid-cols-2">
                     <div>
-                        <input type="text" id="first_name" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="First Name" required>
+                        <input type="text" id="first_name" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="First Name" required>
                     </div>
                     <div>
-                        <input type="text" id="last_name" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Last Name" required>
+                        <input type="text" id="last_name" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Last Name" required>
                     </div>
                     <div>
-                        <input type="text" id="company" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email" required>
+                        <input type="text" id="company" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email" required>
                     </div>  
                     <div>
-                        <input type="tel" id="phone" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700  dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        <input type="tel" id="phone" class="bg-gray-100 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                     </div>
                 </div>
                 <div>
-                    <textarea id="message" rows="4" class="block p-2.5 w-full text-gray-900 bg-gray-100 rounded-lg focus:border-blue-100 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Kindly share your requirements"></textarea>
+                    <textarea id="message" rows="4" class="block p-2.5 w-full text-gray-900 bg-gray-100 rounded-lg focus:border-blue-100" placeholder="Kindly share your requirements"></textarea>
                 </div>
                 <div class="flex items-start mt-8">
                     <div class="flex items-center h-5">
-                    <input id="remember" type="checkbox" value="" class="w-4 h-4 bg-blue-light rounded border border-blue-light dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+                    <input id="remember" type="checkbox" value="" class="w-4 h-4 bg-blue-light rounded border border-blue-light" required>
                     </div>
-                    <label for="remember" class="ml-2 font-medium text-gray-500 dark:text-gray-400">I agree that my submitted data is being collected and stored. I authorize Oriens Medical team to reach out to me on the shared mediums.</label>
+                    <label for="remember" class="ml-2 font-medium text-gray-500">I agree that my submitted data is being collected and stored. I authorize Oriens Medical team to reach out to me on the shared mediums.</label>
                 </div>
                 <div class="flex justify-center">
-                    <button type="submit" class="text-white uppercase bg-blue-dark hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg w-4/5 px-5 py-2.5 mt-10 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send message</button>
+                    <button type="submit" class="text-white uppercase bg-blue-dark hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg w-4/5 px-5 py-2.5 mt-10 text-center">Send message</button>
                 </div>
             </form>
         </div>
     </div>
    </section>
+
+   <!-- SCROLL TO TOP BTN -->
+   <span class="px-5 py-3.5 fixed right-5 bottom-5 rounded-lg text-white text-xl bg-blue-light cursor-pointer hidden" id="back-to-top">
+    <i class="fa-solid fa-angles-up"></i>
+   </span>
 
     <!-- FOOTER -->
     <footer class="bg-blue-dark text-white pt-16 pb-10" id="footer"></footer>
@@ -76,5 +81,6 @@
     <script src="../static/js/preloader.js"></script> 
     <script src="../static/js/script.js"></script>
     <script src="../static/js/menu.js"></script>
+    <script src="../static/js/back-to-top.js"></script>
 </body>
 </html>
