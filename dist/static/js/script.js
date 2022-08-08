@@ -71,8 +71,8 @@ footer.innerHTML = `
    </div>
    <div class="mt-6 md:mt-0 lg:pl-10 text-lg text-gray-300 leading-loose">
     <h6 class="text-white text-2xl font-semibold mb-4 md:mb-6">Contacts</h6>
-    <p>+(91) 9999 32 3200</p>
-    <p>info@oriensmedical.com</p>
+    <p><a href="tel:+9999323200">+(91) 9999 32 3200</a></p>
+    <p><a href="mailto:info@oriensmedical.com">info@oriensmedical.com</a></p>
     <a href="./quote-request.html" class="inline-flex w-max items-center uppercase mt-10 py-3 px-5 text-sm font-medium text-center text-white bg-blue-light rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
         Quote a request
     </a>

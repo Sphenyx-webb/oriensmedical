@@ -6,8 +6,8 @@ window.addEventListener("scroll", () => {
     } else {
       backToTop.classList.add("hidden");
     }
-  })
+  });
 
   backToTop.addEventListener("click", () => {
     window.scrollTo(0, 0)
-  })
+  });

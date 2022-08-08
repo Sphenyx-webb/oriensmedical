@@ -47,13 +47,15 @@
     <section id="intro-section" class="intro-section mt-10 mb-16 md:mt-10 md:mb-16 md:my-20 relative">
         <div class="container grid grid-cols-1 md:grid-cols-2 lg:px-36 items-center">
             <div class="intro-vid-cont relative w-full h-72 flex justify-center items-center">
-                <div id="vid-cover" class="absolute h-72 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white z-10">
+                <div id="vid-cover" class="absolute h-72 w-full bg-none rounded-lg flex justify-center items-center text-6xl text-white z-10">
                     <span class="cursor-pointer">
                         <i class="fa-solid fa-play"></i>
                     </span>
                 </div>
-                <video id="intro-vid" class="absolute w-full h-60" controls>
-                    <source src="../media/videos/ec1b6022b289a56c358923a2d0136826.webm" type="video/webm">
+                <video id="intro-vid" poster="../media/images/covers/manufacturing.jpg" class="absolute w-auto h-auto">
+                    <source src="../media/videos/manufacturing.mp4" type="video/mp4">
+                    <source src="../media/videos/manufacturing.ogv" type="video/ogg">
+                    <source src="../media/videos/manufacturing.webm" type="video/webm">
                 </video>
             </div>
             <div class="text-blue-dark text-center mt-6 md:mt-0 md:text-right md:pl-14">
@@ -246,7 +248,7 @@
                 What people are saying about us
             </div>
             <div class="carousel relative" id="recommendationSlider">
-                <div data-parent="#recommendationSlider" class="carousel-inner scroll-smooth container py-8 pl-8 flex gap-6 overflow-x-scroll reccomendations">
+                <div style="scrollbar-width: none; -ms-overflow-style: none;" class="carousel-inner scroll-smooth container py-8 pl-8 flex gap-6 overflow-x-scroll reccomendations">
                     <div class="shrink-0 px-6 pb-6 h-fit max-w-xs bg-white rounded-lg shadow-custom">
                         <div class="pt-10 pl-8 bg-blue-light text-white text-4xl w-max">
                             <i class="fa-solid fa-quote-left"></i>
@@ -274,7 +276,7 @@
                             <i class="fa-solid fa-quote-left"></i>
                         </div>
                         <p class="my-4 mt-8 font-semibold text-md">
-                            At first, we were skeptocal about doing business with Oriens. However, post our first order,
+                            At first, we were skeptical about doing business with Oriens. However, post our first order,
                             we found one-stop vendor for all our orthopedic needs.
                         </p>
                         <h5 class="uppercase text-lg text-blue-dark font-semibold">SAMANTHA M.</h5>
@@ -313,10 +315,10 @@
                         <h5 class="uppercase text-lg text-blue-dark font-semibold">SAMANTHA M.</h5>
                     </div>
                 </div>
-                <a href="#" class="carousel-control-btn-prev absolute top-1/2 h-12 w-12 flex items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-gray-400 text-3xl opacity-80 left-0 hidden sm:block">
+                <a href="#" class="carousel-control-btn-prev absolute top-1/2 h-12 w-12 items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-white text-3xl opacity-80 left-0 hidden sm:inline-flex">
                     <span class="fa fa-chevron-left"></span>
                 </a>
-                <a href="#" class="carousel-control-btn-next absolute top-1/2 h-12 w-12 flex items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-gray-400 text-3xl opacity-80 right-0 hidden sm:block">
+                <a href="#" class="carousel-control-btn-next absolute top-1/2 h-12 w-12 items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-white text-3xl opacity-80 right-0 hidden sm:inline-flex">
                     <span class="fa fa-chevron-right"></span>
                 </a>
             </div>
