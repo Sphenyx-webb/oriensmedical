@@ -19,8 +19,8 @@
 <body>
 
     <!-- PRELOADER -->
-    <div id="preloader" class="fixed w-full h-full inset-0 bg-white opacity-80 text-center z-infinite">
-        <div class="absolute rounded-full top-1/2 left-1/2 w-14 h-14 bg-blue-light animate-pulse"></div>
+    <div id="preloader" class="fixed w-full h-full flex items-center justify-center inset-0 bg-white opacity-80 text-center z-infinite">
+        <div class="rounded-full w-14 h-14 bg-blue-light animate-pulse"></div>
     </div>
     
     <!-- HEADER -->
@@ -32,10 +32,10 @@
        <div class="h-full w-full backdrop-opacity-10 backdrop-invert bg-black/30 py-28">
                 <div class="container h-full flex items-center text-white">
             <div class="w-full md:w-3/5 lg:w-1/2 lg:pr-32">
-                <span>
+                <span class="block text-center md:text-left">
                     <h1 class="text-5xl mb-10 font-medium leading-tight">Providing Solutions For Your Wellness</h1>
                 </span>
-                <span>
+                <span class="block flex justify-center md:justify-start">
                     <a href="./quote-request.html" class="text-white uppercase bg-blue-dark hover:bg-blue-900 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 mr-2 mb-2 focus:outline-none">Quote a request</a>
                 </span>
             </div>
@@ -44,13 +44,17 @@
     </section>
     
     <!-- INTRO SECTION -->
-    <section id="intro-section" class="intro-section mt-10 mb-16 md:mt-10 md:mb-16 md:my-20">
+    <section id="intro-section" class="intro-section mt-10 mb-16 md:mt-10 md:mb-16 md:my-20 relative">
         <div class="container grid grid-cols-1 md:grid-cols-2 lg:px-36 items-center">
-            <div class="intro-vid-cont">
-                <div class="intro-vid h-60 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white">
-                    <i class="fa-solid fa-play"></i>
-                    <!-- <video src="../media/videos/"></video> -->
+            <div class="intro-vid-cont relative w-full h-72 flex justify-center items-center">
+                <div id="vid-cover" class="absolute h-72 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white z-10">
+                    <span class="cursor-pointer">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
                 </div>
+                <video id="intro-vid" class="absolute w-full h-60" controls>
+                    <source src="../media/videos/ec1b6022b289a56c358923a2d0136826.webm" type="video/webm">
+                </video>
             </div>
             <div class="text-blue-dark text-center mt-6 md:mt-0 md:text-right md:pl-14">
                 <h1 class="text-6xl font-semibold mb-4">Welcome!</h1>
@@ -309,10 +313,10 @@
                         <h5 class="uppercase text-lg text-blue-dark font-semibold">SAMANTHA M.</h5>
                     </div>
                 </div>
-                <a href="#" class="carousel-control-btn-prev absolute top-1/2 h-12 w-12 flex items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-gray-400 text-3xl opacity-80 left-0">
+                <a href="#" class="carousel-control-btn-prev absolute top-1/2 h-12 w-12 flex items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-gray-400 text-3xl opacity-80 left-0 hidden sm:block">
                     <span class="fa fa-chevron-left"></span>
                 </a>
-                <a href="#" class="carousel-control-btn-next absolute top-1/2 h-12 w-12 flex items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-gray-400 text-3xl opacity-80 right-0">
+                <a href="#" class="carousel-control-btn-next absolute top-1/2 h-12 w-12 flex items-center justify-center rounded-full bg-blue-light hover:bg-blue-dark text-gray-400 text-3xl opacity-80 right-0 hidden sm:block">
                     <span class="fa fa-chevron-right"></span>
                 </a>
             </div>
@@ -354,5 +358,6 @@
    <script src="../static/js/menu.js"></script>
    <script src="../static/js/carousel.js"></script>
    <script src="../static/js/back-to-top.js"></script>
+   <script src="../static/js/video-control.js"></script>
 </body>
 </html>
