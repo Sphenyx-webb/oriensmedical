@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css" type="text/css">
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="../static/css/style.css" type="text/css">
-    <title>About Us | Oriens Medical</title>
+    <title>About Us | Capital Orthopaedic</title>
+    <style>
+        #vid-cover{
+            background-size: cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+            url("../media/images/covers/about-vid-poster.webp") no-repeat center center/cover;
+        }
+    </style>
 </head>
 <body>
     
@@ -46,13 +53,15 @@
                         Visit our manufacturing unit
                     </a>
                 </div>
-                <div class="lg:order-2">
-                    <div id="about-vid" class="h-60 w-full bg-stone-700 rounded-lg flex justify-center items-center text-6xl text-white">
-                        <i class="fa-solid fa-play"></i>
+                <div class="lg:order-2">                    
+                    <div class="relative w-full h-80 flex justify-center items-center">
+                        <div id="vid-cover" class="absolute rounded-md h-80 w-full flex justify-center items-center text-6xl text-white z-10">
+                            <span class="cursor-pointer">
+                                <i class="fa-solid fa-play"></i>
+                            </span>
+                        </div>
+                        <iframe id="vid" src="https://player.vimeo.com/video/249675407?dnt=1&;app_id=122963&;autoplay=1" class="absolute w-full h-72" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen muted allow="muted"></iframe>
                     </div>
-                    <!-- <video id="aboutVid" class="h-auto w-auto">
-                        <source src="https://player.vimeo.com/video/249675407?dnt=1&;app_id=122963&;autoplay=1">
-                    </video> -->
                 </div>
             </div>
         </div>
@@ -96,5 +105,6 @@
     <script src="../static/js/script.js"></script>
     <script src="../static/js/menu.js"></script>
     <script src="../static/js/back-to-top.js"></script>
+    <script src="../static/js/video-control.js"></script>
 </body>
 </html>

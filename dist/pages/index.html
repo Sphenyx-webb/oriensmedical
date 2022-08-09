@@ -9,10 +9,16 @@
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="../static/css/style.css" type="text/css">
 
-    <title>Oriens Medical</title>
+    <title>Capital Orthopaedic</title>
     <style>
         .reccomendations::-webkit-scrollbar{
            display: none;
+        }
+
+        #vid-cover{
+            background-size: cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+            url("../media/images/covers/manufacturing.jpg") no-repeat center center/cover;
         }
     </style>
 </head>
@@ -47,12 +53,12 @@
     <section id="intro-section" class="intro-section mt-10 mb-16 md:mt-10 md:mb-16 md:my-20 relative">
         <div class="container grid grid-cols-1 md:grid-cols-2 lg:px-36 items-center">
             <div class="intro-vid-cont relative w-full h-72 flex justify-center items-center">
-                <div id="vid-cover" class="absolute h-72 w-full bg-none rounded-lg flex justify-center items-center text-6xl text-white z-10">
+                <div id="vid-cover" class="absolute rounded-md h-72 w-full flex justify-center items-center text-6xl text-white z-10">
                     <span class="cursor-pointer">
                         <i class="fa-solid fa-play"></i>
                     </span>
                 </div>
-                <video id="intro-vid" poster="../media/images/covers/manufacturing.jpg" class="absolute w-auto h-auto">
+                <video id="vid" poster="../media/images/covers/manufacturing.jpg" class="absolute w-auto h-auto" muted>
                     <source src="../media/videos/manufacturing.mp4" type="video/mp4">
                     <source src="../media/videos/manufacturing.ogv" type="video/ogg">
                     <source src="../media/videos/manufacturing.webm" type="video/webm">
