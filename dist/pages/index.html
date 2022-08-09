@@ -15,12 +15,19 @@
            display: none;
         }
 
-        #vid-cover{
-            background-size: cover;
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-            url("../media/images/covers/manufacturing.jpg") no-repeat center center/cover;
+        #homeVideoCover{
+            background:rgba(4 119 191,.50);
+            background:-webkit-linear-gradient(rgba(4 119 191,.50),rgba(4 119 191,.50)),url(../media/images/covers/manufacturing.jpg) no-repeat center center/cover;
+            background:-moz-linear-gradient(rgba(4 119 191,.50),rgba(4 119 191,.50)),url(../media/images/covers/manufacturing.jpg) no-repeat center center/cover;
+            background:-o-linear-gradient(rgba(4 119 191,.50),rgba(4 119 191,.50)),url(../media/images/covers/manufacturing.jpg) no-repeat center center/cover;
+            background:-ms-linear-gradient(rgba(4 119 191,.50),rgba(4 119 191,.50)),url(../media/images/covers/manufacturing.jpg) no-repeat center center/cover;
+            background:linear-gradient(rgba(4 119 191,.50),rgba(4 119 191,.50)),url(../media/images/covers/manufacturing.jpg) no-repeat center center/cover;
         }
     </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
 </head>
 <body>
 
@@ -53,19 +60,19 @@
     <section id="intro-section" class="intro-section mt-10 mb-16 md:mt-10 md:mb-16 md:my-20 relative">
         <div class="container grid grid-cols-1 md:grid-cols-2 lg:px-36 items-center">
             <div class="intro-vid-cont relative w-full h-72 flex justify-center items-center">
-                <div id="vid-cover" class="absolute rounded-md h-72 w-full flex justify-center items-center text-6xl text-white z-10">
+                <div id="homeVideoCover" class="absolute bg-blue-light opacity-50 rounded-md h-72 w-full flex justify-center items-center text-6xl text-white z-10">
                     <span class="cursor-pointer">
                         <i class="fa-solid fa-play"></i>
                     </span>
                 </div>
-                <video id="vid" poster="../media/images/covers/manufacturing.jpg" class="absolute w-auto h-auto" muted>
+                <video id="homeVideo" poster="../media/images/covers/manufacturing.jpg" class="absolute w-auto h-auto" muted>
                     <source src="../media/videos/manufacturing.mp4" type="video/mp4">
                     <source src="../media/videos/manufacturing.ogv" type="video/ogg">
                     <source src="../media/videos/manufacturing.webm" type="video/webm">
                 </video>
             </div>
             <div class="text-blue-dark text-center mt-6 md:mt-0 md:text-right md:pl-14">
-                <h1 class="text-6xl font-semibold mb-4">Welcome!</h1>
+                <h1 class="text-5xl font-semibold mb-4 md:text-6xl">Welcome!</h1>
                 <p class="text-lg">We are a leading manufacturer and exporter of Orthopedic implants and instruments with products spanning in more than 24 countries.</p>
             </div>
         </div>

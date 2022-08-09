@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="../static/css/style.css" type="text/css">
     <title>About Us | Capital Orthopaedic</title>
     <style>
-        #vid-cover{
-            background-size: cover;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        #aboutVideoCover{
+            background:rgba(4 119 191,.60);
+            background: linear-gradient(rgba(4, 119, 191, .60), rgba(4, 119, 191, .60)), 
             url("../media/images/covers/about-vid-poster.webp") no-repeat center center/cover;
         }
     </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
 </head>
 <body>
     
@@ -55,12 +59,13 @@
                 </div>
                 <div class="lg:order-2">                    
                     <div class="relative w-full h-80 flex justify-center items-center">
-                        <div id="vid-cover" class="absolute rounded-md h-80 w-full flex justify-center items-center text-6xl text-white z-10">
+                        <div id="aboutVideoCover" class="absolute rounded-md h-80 w-full flex justify-center items-center text-6xl text-white z-10">
                             <span class="cursor-pointer">
                                 <i class="fa-solid fa-play"></i>
                             </span>
                         </div>
-                        <iframe id="vid" src="https://player.vimeo.com/video/249675407?dnt=1&;app_id=122963&;autoplay=1" class="absolute w-full h-72" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen muted allow="muted"></iframe>
+                        <iframe id="aboutVideo" src="https://player.vimeo.com/video/249675407?dnt=1&;app_id=122963&;autoplay=1" 
+                        class="absolute w-full h-72" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen muted></iframe>
                     </div>
                 </div>
             </div>
