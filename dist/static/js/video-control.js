@@ -11,13 +11,11 @@ if(homeVid && homeVidCover && playBtn){
     });
 }
 
-//about video control script
-// const aboutVid = document.querySelector("#aboutVideo");
-// const aboutVidCover = document.querySelector("#aboutVideoCover");
-// if(aboutVid && aboutVidCover && playBtn){
-//     playBtn.addEventListener("click", () => {
-//         aboutVidCover.classList.remove("z-10")
-//         document.querySelector("button.play").classList.remove("state-paused");
-//         document.querySelector("button.play").classList += "state-playing";
-//     });
-// }
+// about video control script
+const aboutVid = document.querySelector("#aboutVideo");
+const aboutVidCover = document.querySelector("#aboutVideoCover");
+if(aboutVid && aboutVidCover && playBtn){
+    playBtn.addEventListener("click", () => {
+        aboutVidCover.classList.remove("z-10");
+    });
+}
