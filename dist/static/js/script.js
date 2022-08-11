@@ -7,7 +7,7 @@ header.innerHTML =`
  <nav class="bg-white border-gray-200 py-2.5 rounded">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a href="./index.html" class="flex items-center">
-          <img src="../static/images/logo/Capital-pvt-ltd@2x.png" class="mr-3 h-6 sm:h-9" alt="Logo" />
+          <img src="../static/images/logo/capital orthopaedic logo.png" class="mr-3 h-6 sm:h-9" alt="Logo" />
       </a>
       <div id="navbarTogglers" class="flex lg:hidden">
         <button type="button" id="mobileMenuOpenBtn" class="rounded-lg bg-none text-blue-light hover:text-blue-dark focus:text-blue-dark focus:outline-none focus:bg-none focus:ring-none">
@@ -50,7 +50,7 @@ footer.innerHTML = `
 <div class="flex flex-col lg:flex-row justify-between border-b border-blue-light pb-8">
     <div class="lg:pr-10">
         <a href="./index.html">
-            <img src="../static/images/logo/capital orthopaedic.png" alt="" class="w-52">
+            <img src="../static/images/logo/capital orthopaedic white logo.png" alt="..." class="w-52">
         </a>
         <div class="mt-6 text-lg text-gray-300">
             We are a leading manufacturer and global supplier for high quality and ISO compliant Orthopedic Implants.
