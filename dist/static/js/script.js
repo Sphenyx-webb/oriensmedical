@@ -50,7 +50,7 @@ footer.innerHTML = `
 <div class="flex flex-col lg:flex-row justify-between border-b border-blue-light pb-8">
     <div class="lg:pr-10">
         <a href="./index.html">
-            <img src="../static/images/logo/Oriens-white-logo.png" alt="">
+            <img src="../static/images/logo/capital orthopaedic.png" alt="" class="w-52">
         </a>
         <div class="mt-6 text-lg text-gray-300">
             We are a leading manufacturer and global supplier for high quality and ISO compliant Orthopedic Implants.
